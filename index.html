@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Churrascômetro</title>
+</head>
+<body>
+    
+<section>
+    <div class="conteudo">
+        <h1>Churrascômetro</h1>
+
+        <div class="inputs">
+            <input type="number" name="adultos" id="adultos" min="0" placeholder="Adultos" >
+            <input type="number" name="criancas" id="criancas" min="0" placeholder="Crianças">
+            <input type="number" name="duracao" id="duracao" min="0" max="10" placeholder="Duração em horas">
+        </div>
+        <p>
+            <input  id="bnt" type="button" value="Calcular" onclick="calcular()">
+        </p>
+
+    </div>
+    <div id="res">
+        Preencha os dados acima para ver o resultado
+    </div>
+
+   
+
+
+</section>
+
+<footer>
+    <p>&copy; Eric Formiga</p>
+</footer>
+    <script src="./index.js"></script>
+</body>
+</html>
